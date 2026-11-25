@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Changuito de supermercado con etiqueta de precio -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- manija y canasto -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M30,38 L37,38 L44,66 L72,66 L78,46 L40,46" />
+    <!-- ruedas -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,74 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M68,74 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+    <!-- etiqueta de precio -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M58,28 L72,28 L78,34 L72,40 L58,40 Z" />
+    <path
+        android:fillColor="#1F6E43"
+        android:pathData="M71,34 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+</vector>
